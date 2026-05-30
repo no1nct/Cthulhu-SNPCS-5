@@ -1,14 +1,16 @@
 /*--------------------------------------------------
 	=============== Autorun File ===============
-	*** Copyright (c) 2012-2021 by DrVrej, All rights reserved. ***
+	*** Copyright (c) 2012-2026 by DrVrej, All rights reserved. ***
 	No parts of this code or any of its contents may be reproduced, copied, modified or adapted,
 	without the prior written consent of the author, unless otherwise indicated for stand-alone materials.
+	
+	UPDATED FOR VJ BASE 3.0.0 COMPATIBILITY - 2026
 --------------------------------------------------*/
 ------------------ Addon Information ------------------
-local PublicAddonName = "Lurker SNPC"
-local AddonName = "Lurker"
+local PublicAddonName = "Cthulhu SNPCs - VJ Base 3.0.0"
+local AddonName = "Cthulhu"
 local AddonType = "SNPC"
-local AutorunFile = "autorun/vj_rage_autorun.lua"
+local AutorunFile = "autorun/vj_cthulhu_autorun.lua"
 -------------------------------------------------------
 local VJExists = file.Exists("lua/autorun/vj_base_autorun.lua","GAME")
 if VJExists == true then
